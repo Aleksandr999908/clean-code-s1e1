@@ -11,7 +11,7 @@ body {
     text-align: right;
 }
 .matrix 
-img {
+.matrix-img {
     width: 100%;
 }
 .matrix 
@@ -95,7 +95,6 @@ label[for="new-task"] {
     display: block;
     margin: 0 0 20px;
 }
-input
 #new-task {
     width: 318px;
 }
@@ -140,7 +139,6 @@ img:hover {
 }
 
 /* Completed */
-ul
 #completed-tasks 
 label {
     text-decoration: line-through
@@ -155,7 +153,6 @@ input[type="text"] {
 }
 
 ul 
-li
 .edit-mode 
 input[type="text"] {
     display: inline-block;
@@ -163,7 +160,6 @@ input[type="text"] {
 }
 
 ul 
-li
 .edit-mode 
 label {
     display: none;
